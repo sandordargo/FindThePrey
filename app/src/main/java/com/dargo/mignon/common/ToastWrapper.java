@@ -13,7 +13,7 @@ public class ToastWrapper {
         this.toast = Toast.makeText(context, "initial message", Toast.LENGTH_SHORT);
     }
 
-    public void makeText(Context context, String text) {
+    public void makeText(String text) {
         this.toast.setText(text);
         this.toast.show();
     }

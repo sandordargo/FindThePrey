@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Find The Minion</string>
+    <string name="action_settings">Settings</string>
+    <string name="duck_bkg_desc">This is the background!</string>
+    <string name="aboutme">I\'m developing some apps in my free time, if you have any suggestions, 
+        please send them to dev.sandor@gmail.com. \n\n
+        If you enjoy looking for the duck would like to prove my wife that
+        it is worth to sit and work in front of my computer, donate me please some money, 
+        so I can buy her a nice flower and a cold beer for me :) Cheers\n\n\n</string>
+    <string name="about_MI">About</string>
+    <string name="about_act_name">About me</string>
+    <string name="settings_act_name">Settings</string>
+    <string name="donateme_this_value_msg">Donate:</string>
+    <string name="donateValueCurrTV">EUR</string>
+    <string name="settings_MI">Settings</string>
+    <string name="new_game_MI">New game</string>
+    <string name="is_sound_enabled">Sound</string>
+    <string name="is_text_enabled">Text</string>
+    <string name="high_score_TV">Shortest path</string>
+    <string name="high_score_value_TV">-</string>
+    <string name="current_score_TV">Current path</string>
+    <string name="current_score_value_TV">0</string>
+    <string name="donate_btn">Donate</string>
+    
+
+</resources>

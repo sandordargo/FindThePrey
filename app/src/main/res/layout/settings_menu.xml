@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/settings_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+        <com.google.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+            android:id="@+id/settings_ad"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="ca-app-pub-2833983884268240/1063562413" >
+        </com.google.ads.AdView>
+
+        <TextView
+            android:id="@+id/is_sound_enabled_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="34dp"
+            android:background="@android:color/transparent"
+            android:text="@string/is_sound_enabled"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/is_text_enabled_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/is_sound_enabled_TV"
+            android:layout_marginTop="36dp"
+            android:background="@android:color/transparent"
+            android:text="@string/is_text_enabled"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/is_sound_enabled_CB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/is_sound_enabled_TV"
+            android:layout_alignBottom="@+id/is_sound_enabled_TV"
+            android:layout_marginLeft="61dp"
+            android:layout_toRightOf="@+id/is_sound_enabled_TV" />
+
+        <CheckBox
+            android:id="@+id/is_text_enabled_CB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/is_text_enabled_TV"
+            android:layout_alignBottom="@+id/is_text_enabled_TV"
+            android:layout_alignLeft="@+id/is_sound_enabled_CB" />
+
+</RelativeLayout>

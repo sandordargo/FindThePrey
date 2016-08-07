@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+   	  >
+
+     <item
+        android:id="@+id/new_game_MI"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/new_game_MI"/>
+    
+    <item
+        android:id="@+id/settings_MI"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/settings_MI"/>
+    
+</menu>

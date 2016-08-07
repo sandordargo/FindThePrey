@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/main_view"
+    tools:context=".FindMyPrey" xmlns:app="http://schemas.android.com/apk/lib/com.google.ads">
+
+    <TextView
+        android:id="@+id/high_score_value_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/high_score_TV"
+        android:layout_alignBottom="@+id/high_score_TV"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:text="@string/high_score_value_TV"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/duck_bkg_desc"
+        android:scaleType="centerInside"
+        android:src="@raw/background" />
+
+    <TextView
+        android:id="@+id/high_score_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/current_score_TV"
+        android:layout_marginRight="56dp"
+        android:layout_toLeftOf="@+id/high_score_value_TV"
+        android:background="@android:color/transparent"
+        android:text="@string/high_score_TV"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/current_score_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/high_score_TV"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:text="@string/current_score_TV"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/current_score_value_TV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:gravity="right"
+        android:text="@string/current_score_value_TV"
+        android:textSize="20sp" />
+    
+</RelativeLayout>
